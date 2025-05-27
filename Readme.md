@@ -150,6 +150,7 @@ C:\mcp-client\
 ├── pyproject.toml         # Project configuration
 └── venv\                  # Virtual environment (created during setup)
 ```
+```
 - Mac/Linuc
   /mcp-client/
 ├── git-mcp-client.py          # Main MCP server script
