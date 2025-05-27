@@ -203,4 +203,6 @@ C:\mcp-client\
    - `security_events` - Read security events
 4. Copy the generated token and use it in your configuration
 
+## Config Screenshots
+![Claude Desktop Config1](images/mcp-config-claude.png)
 
