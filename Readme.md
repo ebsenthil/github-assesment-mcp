@@ -39,6 +39,7 @@ C:\mcp\
 ├── git-asses1.py          # Main MCP server script
 ├── pyproject.toml         # Project configuration
 └── venv\                  # Virtual environment (created during setup)
+|__ .env                   #GITHUB_TOCKEN, GITHUB_OWNER can be set here instead of at claude desktop
 ```
 
 ```
@@ -47,6 +48,7 @@ C:\mcp\
 ├── git-asses1.py          # Main MCP server script
 ├── pyproject.toml         # Project configuration
 └── venv\                  # Virtual environment (created during setup)
+|__ .env                   #GITHUB_TOCKEN, GITHUB_OWNER can be set here instead of at claude desktop
 ```
 
 ### Project Configuration
@@ -149,6 +151,7 @@ C:\mcp-client\
 ├── git-mcp-client.py          # Main MCP server script
 ├── pyproject.toml         # Project configuration
 └── venv\                  # Virtual environment (created during setup)
+|__ .env                   #OPENAI_API_KEY as custom client uses OPENAI API.
 ```
 ```
 - Mac/Linuc
