@@ -34,7 +34,16 @@ This MCP server bridges GitHub's API with AI assistants like Claude, enabling in
 Create the following directory structure:
 
 ```
+####Windows
 C:\mcp\
+├── git-asses1.py          # Main MCP server script
+├── pyproject.toml         # Project configuration
+└── venv\                  # Virtual environment (created during setup)
+```
+
+```
+####Linux/Mac
+/mcp/
 ├── git-asses1.py          # Main MCP server script
 ├── pyproject.toml         # Project configuration
 └── venv\                  # Virtual environment (created during setup)
@@ -133,6 +142,13 @@ If you prefer to run a standalone client:
    mkdir mcp-client
    cd mcp-client
    ```
+   ```
+####Windows
+C:\mcp-client\
+├── git-mcp-client.py          # Main MCP server script
+├── pyproject.toml         # Project configuration
+└── venv\                  # Virtual environment (created during setup)
+```
 
 2. **Set up client environment:**
    ```bash
@@ -176,57 +192,4 @@ If you prefer to run a standalone client:
    - `security_events` - Read security events
 4. Copy the generated token and use it in your configuration
 
-### Security Best Practices
 
-- Store tokens securely and never commit them to version control
-- Use environment variables or secure configuration files
-- Regularly rotate access tokens
-- Grant minimal required permissions
-
-## Usage
-
-Once configured, the GitHub Security Assessor will be available through your Claude Desktop interface. You can:
-
-- Request security assessments of specific repositories
-- Analyze code for potential vulnerabilities
-- Get recommendations for security improvements
-- Monitor repository compliance status
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Import errors**: Ensure all dependencies are installed in the virtual environment
-2. **Permission errors**: Verify your GitHub token has the necessary scopes
-3. **Path issues**: Check that file paths in configuration are correct and accessible
-4. **Network issues**: Ensure you have internet connectivity for GitHub API access
-
-### Debug Mode
-
-To enable debug logging, set the environment variable:
-```bash
-export DEBUG=1  # Linux/Mac
-set DEBUG=1     # Windows
-```
-
-## Contributing
-
-Contributions are welcome! Please ensure:
-- Code follows security best practices
-- Tests are included for new features
-- Documentation is updated accordingly
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For issues and questions:
-1. Check the troubleshooting section above
-2. Review GitHub API documentation
-3. Submit issues with detailed error messages and configuration details
-
----
-
-**Note**: This tool is designed for security assessment purposes. Always ensure you have proper authorization before scanning repositories, and follow your organization's security policies.
