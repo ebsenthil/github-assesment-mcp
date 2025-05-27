@@ -34,7 +34,7 @@ This MCP server bridges GitHub's API with AI assistants like Claude, enabling in
 Create the following directory structure:
 
 ```
-####Windows
+- Windows
 C:\mcp\
 ├── git-asses1.py          # Main MCP server script
 ├── pyproject.toml         # Project configuration
@@ -42,7 +42,7 @@ C:\mcp\
 ```
 
 ```
-####Linux/Mac
+- Linux/Mac
 /mcp/
 ├── git-asses1.py          # Main MCP server script
 ├── pyproject.toml         # Project configuration
@@ -142,14 +142,21 @@ If you prefer to run a standalone client:
    mkdir mcp-client
    cd mcp-client
    ```
-   ```
-####Windows
+   
+```
+- Windows
 C:\mcp-client\
 ├── git-mcp-client.py          # Main MCP server script
 ├── pyproject.toml         # Project configuration
 └── venv\                  # Virtual environment (created during setup)
 ```
-
+- Mac/Linuc
+  /mcp-client/
+├── git-mcp-client.py          # Main MCP server script
+├── pyproject.toml         # Project configuration
+└── venv\                  # Virtual environment (created during setup)
+|__ .env                   #OPENAI_API_KEY as custom client uses OPENAI API. 
+```
 2. **Set up client environment:**
    ```bash
    python -m venv venv
