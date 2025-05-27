@@ -8,7 +8,7 @@ In today's development landscape, GitHub repositories contain critical code, sen
 - **Ensure Compliance**: Check repositories against security best practices and organizational policies
 - **Continuous Monitoring**: Integrate security assessments into development workflows
 - **Risk Management**: Prioritize security issues based on severity and impact
-- **Audit Trail**: Maintain comprehensive records of security assessments and remediation efforts
+- **Audit Trail**: Maintain comprehensive records of security assessments and remediation efforts.
 
 This MCP server bridges GitHub's API with AI assistants like Claude, enabling intelligent security analysis and recommendations directly within your development workflow.
 
